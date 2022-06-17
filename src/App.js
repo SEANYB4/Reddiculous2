@@ -38,7 +38,7 @@ const [subreddit, setSubreddit] = useState('webdev');
 
   return (
   
-          <Router>
+          <Router basename={process.env.PUBLIC_URL}>
 
 
 <header className="App-header">
