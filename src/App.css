@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
+* {
+  margin-top: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.input:hover {
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  transform: translate(4px, -4px);
+  box-shadow: -8px 8px 0;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  background-image: linear-gradient(to right, aliceblue, cyan);
+  margin-top: 0;
+  line-height: 5;
+  position: fixed;
+  z-index: 8;
+  width: 100%;
+  height: 5rem;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  
+  grid-row-start: 0;
+  height: 100%;
+  
+  
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to right, #FE4880, #FFCE00);
+  position: relative;
+  height: 80rem;
+  z-index: 0;
+  overflow: hidden;
+}
+
+
+
+
+.sidebar-con {
+  
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    margin-top: 10rem;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #ddd, lightgray);
+}
+
+.sidebar {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  
+  width: 15rem;
+  height: 50rem;
+
+  
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.cards {
+  margin-top: 10rem;
+  margin-bottom: 200px;
+  background-image: linear-gradient(to right, aliceblue, cyan);
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 10px black;
+  border: 1px solid black;
+  overflow: scroll;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.cards:hover {
+
+  transform: translate(4px, -4px);
+  box-shadow: -8px 8px 0;
+}
+
+button {
+
+  margin: 1rem;
+  width: 10rem;
+  height: 3rem;
+ 
+
+}
+
+button:hover {
+  transform: translate(4px, -4px);
+  box-shadow: -8px 8px 0;
+}
+
+.input {
+
+  font-size: 40px;
 }
