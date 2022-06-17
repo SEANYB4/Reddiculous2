@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Reddiculous2/static/css/main.6c014325.css",
+    "main.js": "/Reddiculous2/static/js/main.6294fc39.js",
+    "static/js/787.4b2a337b.chunk.js": "/Reddiculous2/static/js/787.4b2a337b.chunk.js",
+    "static/media/logoReddiculous.svg": "/Reddiculous2/static/media/logoReddiculous.3b46802d848224d53a1e84ae6181fa1a.svg",
+    "index.html": "/Reddiculous2/index.html",
+    "main.6c014325.css.map": "/Reddiculous2/static/css/main.6c014325.css.map",
+    "main.6294fc39.js.map": "/Reddiculous2/static/js/main.6294fc39.js.map",
+    "787.4b2a337b.chunk.js.map": "/Reddiculous2/static/js/787.4b2a337b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c014325.css",
+    "static/js/main.6294fc39.js"
+  ]
+}
